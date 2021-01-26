@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_recipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_8dp"
+    android:layout_marginTop="@dimen/_4dp"
+    android:layout_marginEnd="@dimen/_8dp"
+    android:layout_marginBottom="@dimen/_4dp"
+    app:cardCornerRadius="@dimen/_4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200dp"
+        android:padding="@dimen/_8dp">
+
+        <ImageView
+            android:id="@+id/iv_item_food"
+            android:layout_width="@dimen/_150dp"
+            android:layout_height="@dimen/_190dp"
+            android:layout_marginBottom="@dimen/_4dp"
+            android:contentDescription="@string/text_imageview"
+            android:scaleType="centerCrop"
+            android:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_name_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_item_food"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/text_bakmi"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_desc_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_item_food"
+            android:layout_below="@id/tv_name_food"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/text_bakmi"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="@dimen/_12sp" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rb_recipe"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_food"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_24dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_item_food"
+            android:isIndicator="true"
+            android:numStars="3" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

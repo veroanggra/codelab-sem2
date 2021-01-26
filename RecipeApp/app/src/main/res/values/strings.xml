@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="text_name">Veronica Putri</string>
+    <string name="text_email">veronicaputri497@gmail.com</string>
+    <string name="text_more">More..</string>
+    <string name="text_top_menu">Top Menu</string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+    <string name="sate">Sate</string>
+    <string name="siomai">Siomai</string>
+    <string name="batagor">Batagor</string>
+    <string name="soto">Soto</string>
+    <string name="text_gudeg">Gudeg</string>
+    <string name="gado">Gado Gado</string>
+    <string name="bakso">Bakso</string>
+    <string name="text_imageview">Imageview</string>
+    <string name="text_bakmi">Bakmi</string>
+
+    //name
+    <string-array name="name_food">
+        <item>Soto</item>
+
+
+    </string-array>
+
+    //description
+    <string-array name="desc_food">
+        <item>2 butir jeruk nipis, potong-potong</item>
+    </string-array>
+
+    //ingredients
+    <string-array name="ingredients">
+        <item>-</item>
+    </string-array>
+
+    //step
+    <string-array name="steps">
+        <item>-</item>
+    </string-array>
+
+    //rating
+    <integer-array name="rating">
+        <item> 1 </item>
+    </integer-array>
+
+    //photo
+    <string-array name="photo_food">
+        <item>https://i.ibb.co/Rzg8Ync/shutterstock-1469046305-780x440.jpg</item>
+    </string-array>
+
+
+
+</resources>

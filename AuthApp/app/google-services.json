@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "864108775752",
+    "project_id": "vero-idn-school",
+    "storage_bucket": "vero-idn-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864108775752:android:1c501d457f93563cc6cb7d",
+        "android_client_info": {
+          "package_name": "com.veronica.idn.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864108775752-8ah50sqn9ciduqcnvvqadtdnsvhtquf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veronica.idn.authapp",
+            "certificate_hash": "20cf5cb6a0dcb817a2bb82e744c834d992ed68c5"
+          }
+        },
+        {
+          "client_id": "864108775752-5c45hjabnm16dbuv60dk246i8d14r3c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUt3rxv2vjZbx6RqpdD2TUPx-DmYTp4mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864108775752-5c45hjabnm16dbuv60dk246i8d14r3c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
