@@ -48,7 +48,7 @@ class LoginActivity : AppCompatActivity() {
         firebaseAuth = FirebaseAuth.getInstance()
 
 
-
+// untuk email pass
         btn_sign_in.setOnClickListener {
             val email = et_email.text.toString()
             val password = et_password.text.toString()
