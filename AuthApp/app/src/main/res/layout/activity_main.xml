@@ -8,9 +8,11 @@
     android:padding="@dimen/_16dp"
     tools:context=".MainActivity">
 
-
-
-
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_out" />
 
 
 </LinearLayout>

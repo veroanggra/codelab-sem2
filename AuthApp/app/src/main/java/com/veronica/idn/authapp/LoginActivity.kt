@@ -61,30 +61,21 @@ class LoginActivity : AppCompatActivity() {
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                         return@addOnCompleteListener
+                        finish()
                     } else {
                         Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                        finish()
                     }
                 }.addOnFailureListener {
-                    Log.d("Main", "LoginFailed : ${it.message}")
-                    Toast.makeText(this, "Email/Password incorrect", Toast.LENGTH_SHORT).show()
+//                    Log.d("Main", "LoginFailed : ${it.message}")
+//                    Toast.makeText(this, "Email/Password incorrect", Toast.LENGTH_SHORT).show()
                     val progressCheck =
                         ProgressDialog(this, R.style.Theme_MaterialComponents_Light_Dialog)
                     progressCheck.hide()
+                    finish()
                 }
-
-
-//            if (email== "veronica@gmail.com" || password == "12345"){
-//                val progressCheck = ProgressDialog(this, R.style.Theme_MaterialComponents_Light_Dialog)
-//                progressCheck.isIndeterminate = true
-//                progressCheck.setMessage("Process...")
-//                progressCheck.show()
-//                val intent = Intent(this, MainActivity::class.java)
-//                startActivity(intent)
-//                finish()
-//            }
-
 
         }
     }
@@ -114,8 +105,6 @@ class LoginActivity : AppCompatActivity() {
         }
 
     }
-
-
     private fun setUpRequestUI() {
         btn_google_sign_in.setOnClickListener { signIn() }
     }
@@ -132,6 +121,4 @@ class LoginActivity : AppCompatActivity() {
             .build()
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
     }
-
-
 }
