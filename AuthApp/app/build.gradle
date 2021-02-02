@@ -46,6 +46,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:18.0.1'
     implementation 'com.google.firebase:firebase-auth:20.0.2'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'com.google.firebase:firebase-firestore:22.0.2'
+    implementation 'com.firebaseui:firebase-ui-firestore:7.1.1'
+
 
 
     testImplementation 'junit:junit:4.13.1'
