@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/_16dp"
-        android:src="@drawable/ic_add" />
+        android:src="@drawable/ic_add"
+        android:id="@+id/fb_main"/>
 
 
 
