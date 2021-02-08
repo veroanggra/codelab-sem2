@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">News App</string>
+    <string name="image_view">Image View</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_ins">Please Sign In to continue</string>
+    <string name="email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="text_login_button">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="text_account">Don’t have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="text_ins_signup">Please fill the input below here</string>
+    <string name="back">Back</string>
+    <string name="fullname">Fullname</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="text_already">Already have an account?</string>
 </resources>
