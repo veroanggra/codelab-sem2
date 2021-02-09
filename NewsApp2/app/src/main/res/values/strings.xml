@@ -17,4 +17,9 @@
     <string name="sign_in">Sign In</string>
     <string name="register">Register</string>
     <string name="text_already">Already have an account?</string>
+    <string name="date">9 Feb, 2021</string>
+    <string name="error_text">Not empty</string>
+    <string name="error_pass">Password Mismatch</string>
+    <string name="text_user">Users</string>
+    <string name="error_register">Register Failed</string>
 </resources>

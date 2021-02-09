@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183887443088",
+    "firebase_url": "https://idn-conversation-96498.firebaseio.com",
+    "project_id": "idn-conversation-96498",
+    "storage_bucket": "idn-conversation-96498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183887443088:android:1e9e555a26c4d107695415",
+        "android_client_info": {
+          "package_name": "com.veronica.idn.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183887443088-91ru53j5106kj4hsedqtglp11itnt17d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veronica.idn.newsapp",
+            "certificate_hash": "20cf5cb6a0dcb817a2bb82e744c834d992ed68c5"
+          }
+        },
+        {
+          "client_id": "183887443088-7htqh0pf6avuib6dmrd8bglkcs0orjc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQigOSgUiV5t6SkfRbvw7VRqJtBQV_SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183887443088-7htqh0pf6avuib6dmrd8bglkcs0orjc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

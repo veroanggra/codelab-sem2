@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpActivity">
+    tools:context=".activity.SignUpActivity">
 
     <TextView
         android:id="@+id/tv_title_signup"
@@ -78,6 +78,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         app:boxBackgroundColor="@color/mainTransparent"
+
         app:boxBackgroundMode="filled"
         app:boxCornerRadiusTopEnd="@dimen/_16dp"
         app:boxCornerRadiusTopStart="@dimen/_16dp"
@@ -87,12 +88,13 @@
         app:startIconDrawable="@drawable/ic_email">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_email_signup"
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
-            android:inputType="textEmailAddress" />
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_pass_layout"
@@ -145,7 +147,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_signin"
+        android:id="@+id/btn_signup"
         android:layout_width="@dimen/_150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"

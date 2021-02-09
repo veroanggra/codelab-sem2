@@ -1,10 +1,11 @@
-package com.veronica.idn.newsapp
+package com.veronica.idn.newsapp.activity
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.veronica.idn.newsapp.R
 import kotlinx.android.synthetic.main.activity_forgot_password.*
 
 class ForgotPasswordActivity : AppCompatActivity(), View.OnClickListener {
