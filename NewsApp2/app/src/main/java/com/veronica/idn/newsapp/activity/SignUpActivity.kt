@@ -1,5 +1,6 @@
 package com.veronica.idn.newsapp.activity
 
+import android.app.ProgressDialog
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -76,8 +77,11 @@ class SignUpActivity : AppCompatActivity(), View.OnClickListener {
                         }
                     }
                 }else{
+                    val progress = ProgressDialog(this, R.style.Theme_AppCompat_Light_Dialog)
+                    progress.hide()
                     Toast.makeText(this, getString(R.string.error_register) + it.exception!!
                         .message.toString(), Toast.LENGTH_SHORT).show()
+                    finish()
                 }
             }
         }

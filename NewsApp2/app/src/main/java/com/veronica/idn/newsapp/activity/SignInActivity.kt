@@ -59,17 +59,17 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener {
-            if (!it.isSuccessful){
-                startActivity(MainActivity.getLaunchService(this))
-                return@addOnCompleteListener
-            }else{
+            if (it.isSuccessful){
                 Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
                 startActivity(MainActivity.getLaunchService(this))
+                return@addOnCompleteListener
+            } else{
+                Toast.makeText(this, "Login Gagal", Toast.LENGTH_SHORT).show()
             }
         }.addOnFailureListener {
             val progress = ProgressDialog(this, R.style.Theme_AppCompat_Light_Dialog)
             progress.hide()
-            finish()
+            Toast.makeText(this, "Login Gagal", Toast.LENGTH_SHORT).show()
         }
     }
 }

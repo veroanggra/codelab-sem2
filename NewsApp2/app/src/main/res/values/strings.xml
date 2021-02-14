@@ -22,4 +22,6 @@
     <string name="error_pass">Password Mismatch</string>
     <string name="text_user">Users</string>
     <string name="error_register">Register Failed</string>
+    <string name="please_fill_the_input_below_here">Please fill the input below here</string>
+    <string name="logout">Logout</string>
 </resources>
