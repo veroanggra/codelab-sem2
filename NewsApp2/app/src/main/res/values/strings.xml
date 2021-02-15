@@ -24,4 +24,13 @@
     <string name="error_register">Register Failed</string>
     <string name="please_fill_the_input_below_here">Please fill the input below here</string>
     <string name="logout">Logout</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="highlight">Contact Lost With Sriwijaya Air Boeing 737-500 After Take Off</string>
+    <string name="nathania_slavi">Nathania Slavi</string>
+    <string name="all">All</string>
+    <string name="international">International</string>
+    <string name="media">Media</string>
+    <string name="magazine">Magazine</string>
+    <string name="business">Business</string>
+    <string name="title_items">An Illinois town fights to save its power plant</string>
 </resources>
