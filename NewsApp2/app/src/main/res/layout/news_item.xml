@@ -7,12 +7,13 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_item_news"
-        android:layout_width="160dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:layout_marginBottom="@dimen/_16dp"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="@dimen/_20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,16 +28,51 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/image_view"
             android:scaleType="centerCrop"
+            android:background="@color/white"
             android:src="@drawable/main_banner" />
 
     </androidx.cardview.widget.CardView>
 
-<!--    <TextView-->
-<!--        android:id="@+id/tv_title_items"-->
-<!--        android:layout_width="179dp"-->
-<!--        android:layout_height="40dp"-->
-<!--        android:maxLines="4"-->
-<!--        android:text="@string/title_items"-->
-<!--        tools:layout_editor_absoluteX="216dp"-->
-<!--        tools:layout_editor_absoluteY="69dp" />-->
+    <TextView
+        android:id="@+id/tv_title_items"
+        android:layout_width="224dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="4"
+        android:text="@string/title_items"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cv_item_news"
+        app:layout_constraintTop_toTopOf="@+id/cv_item_news" />
+
+    <TextView
+        android:id="@+id/tv_date_item"
+        android:layout_width="93dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:drawablePadding="2dp"
+        android:text="@string/dummy_tgl"
+        android:textSize="@dimen/_12sp"
+        app:drawableStartCompat="@drawable/ic_baseline_calendar_today_24"
+        app:layout_constraintBottom_toBottomOf="@+id/cv_item_news"
+        app:layout_constraintStart_toEndOf="@+id/cv_item_news"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_items"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/tv_duration_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_duration"
+        android:textSize="@dimen/_12sp"
+        app:drawableStartCompat="@drawable/ic_baseline_access_time_24"
+        app:layout_constraintBottom_toBottomOf="@+id/cv_item_news"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toEndOf="@+id/tv_date_item"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_items" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,7 +23,6 @@
     <string name="text_user">Users</string>
     <string name="error_register">Register Failed</string>
     <string name="please_fill_the_input_below_here">Please fill the input below here</string>
-    <string name="logout">Logout</string>
     <string name="breaking_news">Breaking News</string>
     <string name="highlight">Contact Lost With Sriwijaya Air Boeing 737-500 After Take Off</string>
     <string name="nathania_slavi">Nathania Slavi</string>
@@ -33,4 +32,20 @@
     <string name="magazine">Magazine</string>
     <string name="business">Business</string>
     <string name="title_items">An Illinois town fights to save its power plant</string>
+    <string name="dummy_tgl">15/02/2021</string>
+    <string name="dummy_duration">10 Min Read</string>
+    <string name="floating_button">Floating Button</string>
+    <string name="content_desc">A search is underway after suspected debris from an Indonesian Sriwijaya Air flight was found hours after the plane went missing. The plane lost contact after taking off from Indonesian capital Jakarta on Saturday en route to the city of Pontianak in West Kalimantan province. The Boeing 737-500 flight was carrying 62 people.The 50 passengers included seven children and three babies.</string>
+    <string name="nathania_gmail_com">nathania@gmail.com</string>
+    <string name="preference">Preference</string>
+    <string name="account">Account</string>
+    <string name="language">Language</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="setting">Setting</string>
+    <string name="privacy_and_setting_help">Privacy and Setting Help</string>
+    <string name="notification">Notification</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="change_account">Change Account</string>
+    <string name="logout">Logout</string>
+    <string name="dark_mode">Dark Mode</string>
 </resources>
