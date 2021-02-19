@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -78,6 +78,7 @@
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <ImageView
+                        android:id="@+id/iv_main"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/white"
@@ -167,6 +168,7 @@
                     android:layout_marginBottom="@dimen/_8dp"
                     android:text="@string/all"
                     android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_international"
                     android:layout_width="wrap_content"
@@ -175,9 +177,10 @@
                     android:layout_marginTop="@dimen/_16dp"
                     android:layout_marginEnd="@dimen/_16dp"
                     android:layout_marginBottom="@dimen/_8dp"
-                    android:text="@string/international"
                     android:layout_toEndOf="@id/tv_all"
+                    android:text="@string/international"
                     android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_media"
                     android:layout_width="wrap_content"
@@ -186,9 +189,10 @@
                     android:layout_marginTop="@dimen/_16dp"
                     android:layout_marginEnd="@dimen/_16dp"
                     android:layout_marginBottom="@dimen/_8dp"
-                    android:text="@string/media"
                     android:layout_toEndOf="@id/tv_international"
+                    android:text="@string/media"
                     android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_magazine"
                     android:layout_width="wrap_content"
@@ -197,9 +201,10 @@
                     android:layout_marginTop="@dimen/_16dp"
                     android:layout_marginEnd="@dimen/_16dp"
                     android:layout_marginBottom="@dimen/_8dp"
-                    android:text="@string/magazine"
                     android:layout_toEndOf="@id/tv_media"
+                    android:text="@string/magazine"
                     android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_business"
                     android:layout_width="wrap_content"
@@ -208,8 +213,8 @@
                     android:layout_marginTop="@dimen/_16dp"
                     android:layout_marginEnd="@dimen/_16dp"
                     android:layout_marginBottom="@dimen/_8dp"
-                    android:text="@string/business"
                     android:layout_toEndOf="@id/tv_magazine"
+                    android:text="@string/business"
                     android:textSize="@dimen/_18sp" />
             </RelativeLayout>
 
@@ -225,4 +230,4 @@
             tools:listitem="@layout/news_item" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</androidx.core.widget.NestedScrollView>

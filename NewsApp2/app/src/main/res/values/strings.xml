@@ -48,4 +48,6 @@
     <string name="change_account">Change Account</string>
     <string name="logout">Logout</string>
     <string name="dark_mode">Dark Mode</string>
+    <string name="description">Description</string>
+    <string name="content">Content</string>
 </resources>

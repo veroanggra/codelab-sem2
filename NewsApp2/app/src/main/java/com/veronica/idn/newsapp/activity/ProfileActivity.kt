@@ -25,6 +25,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when(v.id){
             R.id.tv_logout -> logOut()
+            R.id.iv_back_profile -> startActivity(Intent())
         }
     }
 
