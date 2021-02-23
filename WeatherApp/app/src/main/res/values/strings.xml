@@ -18,4 +18,6 @@
     <string name="jakarta_indonesia">Jakarta, Indonesia</string>
     <string name="indonesia">Indonesia</string>
     <string name="new_city">New City</string>
+    <string name="setting">Setting</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
