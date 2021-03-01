@@ -7,4 +7,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="_20dp">20dp</dimen>
     <dimen name="_30dp">30dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
 </resources>
