@@ -9,4 +9,7 @@
     <string name="upcoming">Upcoming</string>
     <string name="imageview">Imageview</string>
     <string name="title">Title</string>
+    <string name="image_view">Image View</string>
+    <string name="description">Description</string>
+    <string name="date">12-4-2021</string>
 </resources>

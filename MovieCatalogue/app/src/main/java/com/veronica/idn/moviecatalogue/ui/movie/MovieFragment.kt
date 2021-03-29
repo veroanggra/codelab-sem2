@@ -4,28 +4,67 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.veronica.idn.moviecatalogue.adapter.PopulerMovieAdapter
 import com.veronica.idn.moviecatalogue.R
+import com.veronica.idn.moviecatalogue.adapter.UpcomingMovieAdapter
+import com.veronica.idn.moviecatalogue.model.movie.MovieItemResponse
+import com.veronica.idn.moviecatalogue.model.movie.UpcomingResponse
+import kotlinx.android.synthetic.main.fragment_movie.*
 
 class MovieFragment : Fragment() {
 
-    private lateinit var homeViewModel: MovieViewModel
+    private lateinit var movieViewModel: MovieViewModel
+    private lateinit var populerMovieAdapter: PopulerMovieAdapter
+    private lateinit var upcomingMovieAdapter: UpcomingMovieAdapter
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-                ViewModelProvider(this).get(MovieViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_movie, container, false)
-//        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-//            textView.text = it
+
+        movieViewModel =
+            ViewModelProvider(this).get(MovieViewModel::class.java)
+
+        //popular
+        movieViewModel.init(1)
+        movieViewModel.getData()
+            .observe(viewLifecycleOwner, Observer { popularMovie ->
+                getInitPopular(popularMovie)
+            })
+
+        //upcoming
+        movieViewModel.initUp(1)
+        movieViewModel.getDataUpcoming().observe(viewLifecycleOwner, Observer { movieUpcoming ->
+            getInitUpcoming(movieUpcoming)
         })
         return root
+    }
+
+    private fun getInitUpcoming(movieUpcoming: List<UpcomingResponse>) {
+        rv_upcoming.apply {
+            layoutManager = LinearLayoutManager(context,
+                LinearLayoutManager.VERTICAL, true)
+            upcomingMovieAdapter = UpcomingMovieAdapter(movieUpcoming)
+            rv_upcoming.adapter = upcomingMovieAdapter
+        }
+
+    }
+
+
+    private fun getInitPopular(popularMovie: List<MovieItemResponse>) {
+        rv_popular.apply {
+            layoutManager = LinearLayoutManager(
+                context,
+                LinearLayoutManager.HORIZONTAL, true
+            )
+            populerMovieAdapter = PopulerMovieAdapter(popularMovie)
+            rv_popular.adapter = populerMovieAdapter
+        }
     }
 }
