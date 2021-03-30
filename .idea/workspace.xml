@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0bf54a-904a-4d98-b14e-6b3ca4da1189" name="Default Changelist" comment="" />
+    <list default="true" id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/helper/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/City.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Cloud.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Coord.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Rain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Sys.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/WeatherItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Wind.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/splash_cloud.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/splash_sun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_01d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_02n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_calendar_today_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_location_on_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codelab-sem2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_26]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nblQwRXum11cWIhP7HWjXMc0VN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1qSQpy0kOz1lsq80D5Wc9LleAGt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,31 +65,147 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all" />
+    </key>
+    <key name="android.template.1164465752">
+      <recent name="com.veronica.idn.cityweather" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.veronica.idn.cityweather.model.all" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CityWeather.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f0bf54a-904a-4d98-b14e-6b3ca4da1189" name="Default Changelist" comment="" />
-      <created>1611666658194</created>
+      <changelist id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="" />
+      <created>1617070697494</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611666658194</updated>
+      <updated>1617070697494</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="320" key="Github.ShareDialog" timestamp="1611666735950">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1617079327644">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
-    <state x="507" y="320" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1611666735950" />
-    <state x="385" y="170" key="Github.UntrackedFilesDialog" timestamp="1611666756702">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617079327644" />
+    <state x="1735" y="286" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1617088914376">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
-    <state x="385" y="170" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1611666756702" />
+    <state x="1735" y="286" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617088914376" />
+    <state x="1672" y="229" key="AndroidCreateResourceDirectoryDialog" timestamp="1617076316906">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1672" y="229" key="AndroidCreateResourceDirectoryDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617076316906" />
+    <state x="1668" y="285" key="AndroidCreateResourceFileDialog" timestamp="1617076609685">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1668" y="285" key="AndroidCreateResourceFileDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617076609685" />
+    <state x="1902" y="304" key="AndroidCreateXmlResourceDialog" timestamp="1617078021415">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1902" y="304" key="AndroidCreateXmlResourceDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617078021415" />
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1617075407738">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617075407738" />
+    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1617075407738">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617075407738" />
+    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1617075407737">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617075407737" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1617075407738">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617075407738" />
+    <state x="1581" y="151" key="SettingsEditor" timestamp="1617070848694">
+      <screen x="1440" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1581" y="151" key="SettingsEditor/0.0.1440.900/1440.0.1280.1024@1440.0.1280.1024" timestamp="1617070848694" />
+    <state width="500" height="487" key="SwitcherDM" timestamp="1617079123922">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state width="500" height="487" key="SwitcherDM/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617079123922" />
   </component>
 </project>

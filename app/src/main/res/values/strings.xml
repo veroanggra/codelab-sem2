@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CityWeather</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="prediction">Prediction</string>
+    <string name="location">Location</string>
+    <string name="imageview">ImageView</string>
+</resources>

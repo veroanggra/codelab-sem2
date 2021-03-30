@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/codelab-sem2.iml" filepath="$PROJECT_DIR$/.idea/codelab-sem2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CityWeather.iml" filepath="$PROJECT_DIR$/.idea/modules/CityWeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CityWeather.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CityWeather.app.iml" />
     </modules>
   </component>
 </project>
