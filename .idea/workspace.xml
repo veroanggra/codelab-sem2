@@ -9,29 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/SplashActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/helper/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/City.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Cloud.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Coord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Rain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Sys.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/WeatherItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all/Wind.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/splash_cloud.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/splash_sun.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_01d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_02n.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_calendar_today_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_location_on_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codelab-sem2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +138,19 @@
       <option name="presentableId" value="Default" />
       <updated>1617070697494</updated>
     </task>
+    <task id="LOCAL-00001" summary="weather clean arch">
+      <created>1617091343170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617091343171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="weather clean arch" />
+    <option name="LAST_COMMIT_MESSAGE" value="weather clean arch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1617079327644">
@@ -183,6 +173,10 @@
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state x="1902" y="304" key="AndroidCreateXmlResourceDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617078021415" />
+    <state x="1587" y="189" key="CommitChangelistDialog2" timestamp="1617091342176">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1587" y="189" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617091342176" />
     <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1617075407738">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
@@ -207,5 +201,9 @@
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="500" height="487" key="SwitcherDM/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617079123922" />
+    <state x="1680" y="263" key="Vcs.Push.Dialog.v2" timestamp="1617091360269">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1680" y="263" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617091360269" />
   </component>
 </project>
