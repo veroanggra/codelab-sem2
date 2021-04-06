@@ -9,13 +9,47 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="" />
+    <list default="true" id="7cf94d24-2e05-4577-97f1-95bd45fecd41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/adapter/CityDailyAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/helper/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/network/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/network/RequestInterceptor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/network/RetrofitConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_02d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_03d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_03n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_04d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_04n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_09d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_09n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_10d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_10n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_11d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_11n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_13d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_13n.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_50d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_50n.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieCatalogue/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MovieCatalogue/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsApp2/app/src/main/java/com/veronica/idn/newsapp/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/NewsApp2/app/src/main/java/com/veronica/idn/newsapp/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsApp2/app/src/main/java/com/veronica/idn/newsapp/service/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/NewsApp2/app/src/main/java/com/veronica/idn/newsapp/service/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsApp2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewsApp2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/dashboard/DashboardFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/dashboard/LocationFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/dashboard/DashboardViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/dashboard/LocationViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/notifications/NotificationsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/notifications/PredictionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/notifications/NotificationsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/ui/notifications/PredictionViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_prediction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_26]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -27,6 +61,8 @@
         <option value="resourceFile" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -48,8 +84,11 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.veronica.idn.cityweather.network" />
     </key>
     <key name="android.template.1164465752">
       <recent name="com.veronica.idn.cityweather" />
@@ -57,8 +96,8 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.veronica.idn.cityweather.model.all" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/cityweather/model/all" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,10 +192,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="weather clean arch" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1617079327644">
+    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1617597663038">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
-    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617079327644" />
+    <state x="1842" y="246" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617597663038" />
+    <state x="1440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617596326875">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617596326875" />
     <state x="1735" y="286" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1617088914376">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
@@ -197,10 +240,10 @@
       <screen x="1440" y="0" width="1280" height="1024" />
     </state>
     <state x="1581" y="151" key="SettingsEditor/0.0.1440.900/1440.0.1280.1024@1440.0.1280.1024" timestamp="1617070848694" />
-    <state width="500" height="487" key="SwitcherDM" timestamp="1617079123922">
+    <state width="500" height="487" key="SwitcherDM" timestamp="1617595185266">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
-    <state width="500" height="487" key="SwitcherDM/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617079123922" />
+    <state width="500" height="487" key="SwitcherDM/0.23.1440.877/1440.23.1280.1001@1440.23.1280.1001" timestamp="1617595185266" />
     <state x="1680" y="263" key="Vcs.Push.Dialog.v2" timestamp="1617091360269">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>

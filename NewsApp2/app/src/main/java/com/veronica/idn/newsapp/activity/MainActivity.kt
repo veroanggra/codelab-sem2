@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         if (status.equals("ok")) {
                             Toast.makeText(this@MainActivity, "Data Success !", Toast.LENGTH_SHORT)
                                 .show()
-                            val newsData = response.body()?.articles
+                             val newsData = response.body()?.articles
                             val newsDatImage = response.body()!!
                             Glide.with(this@MainActivity)
                                 .load(newsDatImage.articles?.component5()?.urlToImage).centerCrop()

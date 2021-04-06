@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.veronica.idn.cityweather.R
 
-class DashboardFragment : Fragment() {
+class LocationFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var locationViewModel: LocationViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-                ViewModelProvider(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
+        locationViewModel =
+                ViewModelProvider(this).get(LocationViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_location, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
-        dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
+        locationViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

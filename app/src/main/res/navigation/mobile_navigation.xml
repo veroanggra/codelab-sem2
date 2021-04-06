@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.veronica.idn.cityweather.ui.dashboard.DashboardFragment"
+        android:name="com.veronica.idn.cityweather.ui.dashboard.LocationFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_location" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.veronica.idn.cityweather.ui.notifications.NotificationsFragment"
+        android:name="com.veronica.idn.cityweather.ui.notifications.PredictionFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_prediction" />
 </navigation>
